@@ -80,8 +80,8 @@ router.get('/', async (req, res) => {
                 if (connection === "open") {
                     isPaired = true;
                     try {
-                     // await EliteProTech.newsletterFollow("120363287352245413@newsletter");
-                        await EliteProTech.groupAcceptInvite(FjJh6bwbwEs2pq3FCve6tM");
+                     // await EliteProTech.newsletterFollow("120363407986420869@newsletter");
+                        await EliteProTech.groupAcceptInvite(FjJh6bwbwEs2pq3FCve6tM);
                     } catch (error) {
                         console.error("Newsletter/group error:", error);
                     }
@@ -174,7 +174,7 @@ https://diansybextech.site`;
                                     forwardingScore: 5,
                                     isForwarded: true,
                                     forwardedNewsletterMessageInfo: {
-                                        newsletterJid: '120363287352245413@newsletter',
+                                        newsletterJid: '120363407986420869@newsletter',
                                         newsletterName: "Killnet-xmd",
                                         serverMessageId: 143
                                     }
