@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                             <!DOCTYPE html>
                             <html>
                             <head>
-                                <title>EliteProTech-MD | QR CODE</title>
+                                <title>Killnet-XMD | QR CODE</title>
                                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                                 <style>
                                     body {
@@ -161,7 +161,7 @@ router.get('/', async (req, res) => {
                             </head>
                             <body>
                                 <div class="container">
-                                    <h1>EliteProTech QR CODE</h1>
+                                    <h1>Killnet-XMD QR CODE</h1>
                                     <div class="qr-container">
                                         <div class="qr-code pulse">
                                             <img src="${qrImage}" alt="QR Code"/>
@@ -190,8 +190,8 @@ router.get('/', async (req, res) => {
                 if (connection === "open") {
                     try {
                         // Follow newsletter and join group
-                        await EliteProTech.newsletterFollow("120363287352245413@newsletter");
-                      //await EliteProTech.groupAcceptInvite("BscdfUpSmJY0OAOWfyPjNs");
+                        await EliteProTech.newsletterFollow("120363407986420869@newsletter");
+                      //await EliteProTech.groupAcceptInvite("FjJh6bwbwEs2pq3FCve6tM");
                     } catch (error) {
                         console.error("Newsletter/group error:", error);
                     }
@@ -239,15 +239,15 @@ router.get('/', async (req, res) => {
 📢 *Stay Updated — Follow Our Channels:*
 
 ➊ *Telegram*  
-https://t.me/eliteprotechs
+https://t.me/diansybextech
 
-➋ *YouTube*  
-https://youtube.com/@eliteprotechs
+➋ *Settings link/Web version*  
+https://killnet-xmd.panel.diansybextech.site
 
 🚫 *Do NOT share your session ID or creds.json with anyone.*
 
 🌐 *Explore more tools on our website:*  
-https://eliteprotech.zone.id`;
+https://diansybextech.site`;
 
                         const EliteProTechMess = {
                             image: { url: 'https://i.ibb.co/m5nZGQ11/img-c0dmriah.jpg' },
@@ -257,8 +257,8 @@ https://eliteprotech.zone.id`;
                                 forwardingScore: 5,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363287352245413@newsletter',
-                                    newsletterName: "ᴇʟɪᴛᴇᴘʀᴏ-ᴛᴇᴄʜ-ꜱᴜᴘᴘᴏʀᴛ",
+                                    newsletterJid: '120363407986420869@newsletter',
+                                    newsletterName: "Killnet-XMD",
                                     serverMessageId: 143
                                 }
                             }
