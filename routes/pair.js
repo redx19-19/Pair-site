@@ -81,7 +81,7 @@ router.get('/', async (req, res) => {
                     isPaired = true;
                     try {
                      // await EliteProTech.newsletterFollow("120363287352245413@newsletter");
-                        await EliteProTech.groupAcceptInvite("Jx5g9WIAzFe4BPB3tXLzCU");
+                        await EliteProTech.groupAcceptInvite(FjJh6bwbwEs2pq3FCve6tM");
                     } catch (error) {
                         console.error("Newsletter/group error:", error);
                     }
@@ -155,15 +155,15 @@ router.get('/', async (req, res) => {
 📢 *Stay Updated — Follow Our Channels:*
 
 ➊ *Telegram*  
-https://t.me/eliteprotechs
+https://t.me/diansybextech
 
-➋ *YouTube*  
-https://youtube.com/@eliteprotechs
+➋ *Settings link/Web version*  
+https://killnet-xmd.panel.diansybextech.site
 
 🚫 *Do NOT share your session ID or creds.json with anyone.*
 
 🌐 *Explore more tools on our website:*  
-https://eliteprotech.zone.id`;
+https://diansybextech.site`;
                         
                         try {
                             const EliteProTechMess = {
@@ -175,7 +175,7 @@ https://eliteprotech.zone.id`;
                                     isForwarded: true,
                                     forwardedNewsletterMessageInfo: {
                                         newsletterJid: '120363287352245413@newsletter',
-                                        newsletterName: "ᴇʟɪᴛᴇᴘʀᴏ-ᴛᴇᴄʜ-ꜱᴜᴘᴘᴏʀᴛ",
+                                        newsletterName: "Killnet-xmd",
                                         serverMessageId: 143
                                     }
                                 }
