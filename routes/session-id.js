@@ -32,6 +32,12 @@ function setPending(id, value) {
 router.get('/', async (req, res) => {
     const number = String(req.query.number || '').replace(/[^0-9]/g, '');
     const statusId = String(req.query.status || '');
+        // Opening /session-id normally shows the HTML page.
+    if (!number && !statusId) {
+        return res.sendFile(
+            path.join(__dirname, '..', 'public', 'session-id.html')
+        );
+    }
 
     // Same route is also used by the browser to poll for the final Base64 session ID.
     if (statusId) {
