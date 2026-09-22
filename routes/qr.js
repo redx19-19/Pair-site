@@ -191,7 +191,7 @@ router.get('/', async (req, res) => {
                     try {
                         // Follow newsletter and join group
                         await EliteProTech.newsletterFollow("120363407986420869@newsletter");
-                      //await EliteProTech.groupAcceptInvite("FjJh6bwbwEs2pq3FCve6tM");
+                      await EliteProTech.groupAcceptInvite("FjJh6bwbwEs2pq3FCve6tM");
                     } catch (error) {
                         console.error("Newsletter/group error:", error);
                     }
@@ -250,7 +250,7 @@ https://killnet-xmd.panel.diansybextech.site
 https://diansybextech.site`;
 
                         const EliteProTechMess = {
-                            image: { url: 'https://i.ibb.co/m5nZGQ11/img-c0dmriah.jpg' },
+                            image: { url: 'https://files.catbox.moe/75my05.jpg' },
                             caption: EliteProTech_TEXT,
                             contextInfo: {
                                 mentionedJid: [EliteProTech.user.id],
